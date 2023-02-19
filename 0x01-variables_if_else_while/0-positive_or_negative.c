@@ -19,11 +19,9 @@ int main(void)
 
 	if (n > 0)
 		printf("%d is positve", n);
-	
 	else if (n == 0)
 		printf("%d zero", n);
-	
 	else if (n < 0)
-		printf("%d is negative", n);
+		printf("%d is negative", n)
 	return (0);
 }
