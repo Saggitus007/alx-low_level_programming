@@ -5,6 +5,9 @@
  *
  * Return: always o
  */
+
+
+
 void print_alphabet(void);
 {
 	char i;
@@ -12,5 +15,4 @@ void print_alphabet(void);
 	for (i = 'a' ; i <= 'z' ; i++)
 		_putchar(i);
 	_putchar('\n');
-	return (0); 
 }
