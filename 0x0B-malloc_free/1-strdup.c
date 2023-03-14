@@ -1,7 +1,7 @@
+#include <main.h>
 #include <stdlib.h>
 
 /**
- * 1-strdup:returns the pointer newly created.
  * _strdup.c: returns a pointer to a newly allocated space in memory.
  * which contains a copy of the string given as a parameter.
  * @str:string to be copied.
