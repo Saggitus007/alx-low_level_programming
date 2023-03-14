@@ -10,11 +10,12 @@ int get_str_len(char *str)
 {
 	int i;
 	for (i = 0; str[i] != '\0'; i++);
-	return (i + 1);
 
+	return (i + 1);
 }
 
-/** str_concat - joins two strings.
+/** 
+ * str_concat - joins two strings.
  *
  * @s1: first string.
  * @s2: second string.
