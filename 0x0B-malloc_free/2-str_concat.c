@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * get_str_len - get the length of the string 
+ * get_str_len - get the length of the string
  * @str: string whose length is to be found.
  * Return: return interger value of ther string.
  */
@@ -11,7 +11,6 @@ int get_str_len(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++);
-
 	return (i + 1);
 
 }
